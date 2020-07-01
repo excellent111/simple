@@ -1,0 +1,46 @@
+@charset 'utf-8';
+
+body {
+    padding-left: auto;
+    padding-right: auto;
+    width: 90%;
+    background-color: whitesmoke;
+}
+
+header {
+    font-size: 40px;
+    text-align: center;
+    background-color: darkolivegreen;
+    color: cornsilk;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    background-color: black;
+    color: cornsilk;
+}
+
+li {
+    text-overflow: ellipsis;
+}
+
+ol li:nth-child(3n) {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    color: darkgoldenrod;
+}
+footer {
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    background-color:gray;
+    color: bisque;
+}
